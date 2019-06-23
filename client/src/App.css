@@ -1,6 +1,8 @@
 nav {
   background-color: #b64b3c;
   padding: 1rem 0;
+  width:100%;
+  position: fixed;
 }
 
 nav h2 {
@@ -17,17 +19,20 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  color: rgb(81, 150, 211);
+  color: #e8aa6e;
   height: 100%;
 }
 
-#background, html, body {
+ html, body {
   background: url("./images/books.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 700px;
+}
+
+header {
+  padding-top:10%;
 }
 
 header h1, header h2 {
@@ -35,11 +40,10 @@ header h1, header h2 {
   transition-duration: 0.5s;
   color: #fff;
   border-radius: 100px;
-  text-shadow: 0 0 5px #b64b3c, 0 0 10px #b64b3c, 0 0 20px #b64b3c, 0 0 30px #b64b3c, 0 0 40px #b64b3c, 0 0 55px #b64b3c, 0 0 75px #b64b3c;
+  text-shadow: 0 0 5px #e8aa6e, 0 0 10px #e8aa6e, 0 0 20px #e8aa6e, 0 0 30px #e8aa6e;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   font-size: 7vw;
   text-align: center;
-  margin-top:10%;
   margin-bottom:3%;
 
 }
@@ -60,7 +64,6 @@ header p {
   font-size: 3vw;
   text-align: center;
   color: white;
-  padding: 20px;
   text-shadow: 0 0 5px #b64b3c, 0 0 10px #b64b3c, 0 0 20px #b64b3c, 0 0 30px #b64b3c, 0 0 40px #b64b3c, 0 0 55px #b64b3c, 0 0 75px #b64b3c;
 
 }
@@ -72,16 +75,28 @@ h3 {
 #searchContainer, #resultsContainer {
   color: white;
   /* background-color: #b64b3c; */
-  padding: 2vw;
+  /* padding: 2vw; */
   margin: 2vw;
   font-size: 3vw;
 }
 
+#searchInfo {
+  text-shadow: 0 0 5px #b64b3c, 0 0 10px #b64b3c, 0 0 20px #b64b3c, 0 0 30px #b64b3c, 0 0 40px #b64b3c, 0 0 55px #b64b3c, 0 0 75px #b64b3c;
+}
 #title{
   padding:2%;
   text-shadow: 0 0 5px #b64b3c, 0 0 10px #b64b3c, 0 0 20px #b64b3c, 0 0 30px #b64b3c, 0 0 40px #b64b3c, 0 0 55px #b64b3c, 0 0 75px #b64b3c;
 }
 
+#savedTitle{
+  padding-top:14%;
+  text-shadow: 0 0 5px #b64b3c, 0 0 10px #b64b3c, 0 0 20px #b64b3c, 0 0 30px #b64b3c, 0 0 40px #b64b3c, 0 0 55px #b64b3c, 0 0 75px #b64b3c;
+}
+
+#noBooks {
+  padding:2%;
+  background-color: #e8aa6e;
+}
 form {
   padding: 1rem 0 1.5rem;
   position: relative;
@@ -126,7 +141,7 @@ button[disabled] {
 }
 
 .bookResult {
-  background-color: #b64b3c;
+  background-color: #ce895a;
   color: #fff;
   padding: 1.75vw;
   font-size: 1rem;

@@ -23,7 +23,7 @@ function ResultsContainer(props) {
         if(props.savedBooks.length > 0) {
             return(
                 <div id="resultsContainer">
-                    <h3 id="title">Saved Books</h3>
+                    <h3 id="savedTitle">Saved Books</h3>
                     {props.savedBooks.map((book) => {
                         return <BookResult
                         title={book.title}
@@ -40,8 +40,8 @@ function ResultsContainer(props) {
         } else {
             return(
                  <div id="resultsContainer">
-                    <h3>Saved Books</h3>
-                    <p>No saved books.</p>
+                    <h3 id="savedTitle">Saved Books</h3>
+                    <p id="noBooks">No saved books.</p>
                 </div>
             );
         }
