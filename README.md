@@ -6,7 +6,7 @@ This is React-based Google Books Search app. It is created using React component
 ### Demo
 * Heroku: [Investing.com News Scraper](https://googlebooksforever.herokuapp.com)
 
-<img src="https://i.ibb.co/GV2G3xy/Google-Books-Home.png" width="400"/><img src="https://i.ibb.co/SnzZxVC/Google-Books-Search-Results.png" width="400"/>
+<img src="https://i.ibb.co/GV2G3xy/Google-Books-Home.png" width="400"/> <img src="https://i.ibb.co/SnzZxVC/Google-Books-Search-Results.png" width="400"/>
 <img src="https://i.ibb.co/WfGQ8L8/Google-Books-Saved.png" width="400"/>
 
 ## Technologies
