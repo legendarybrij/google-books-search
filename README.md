@@ -11,4 +11,4 @@ This is React-based Google Books Search app. It is created using React component
 
 ## Technologies
 * React, MongoDB, Express, NodeJS 
-* npm: axios, mongoose
+* npm: axios, mongoose, dotenv, nodemon
