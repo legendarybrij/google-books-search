@@ -116,8 +116,9 @@ input {
 button {
   border-radius: 0;
   border: none;
-  background-color: #f9c411;
+  background-color:#f7cd99;
   color: white;
+  text-shadow: 0 0 5px #1d1918;
   padding: .75vw;
   font-size: 1.25vw;
 }
@@ -143,6 +144,7 @@ button[disabled] {
 .bookResult {
   background-color: #ce895a;
   color: #fff;
+  box-shadow: 0 0 5px #181615;
   padding: 1.75vw;
   font-size: 1rem;
 }
