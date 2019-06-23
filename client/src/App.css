@@ -197,7 +197,7 @@ button[disabled] {
 
 @media screen and (max-width: 530px) {
   header {
-    padding-top:25%;
+    padding-top:30%;
   }
 
   #searchContainer {
