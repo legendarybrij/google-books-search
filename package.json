@@ -1,7 +1,6 @@
 {
   "name": "mern",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -15,25 +14,6 @@
   },
   "author": "",
   "license": "ISC",
-=======
-  "description": "Mern Demo",
-  "main": "server.js",
-  "engines": {
-    "node": "8.11.3",
-    "yarn": "1.12.3"
-  },
-  "scripts": {
-    "start": "if-env NODE_ENV=production && yarn run start:prod || yarn run start:dev",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"yarn run client\"",
-    "client": "cd client && yarn run start",
-    "install": "cd client && yarn install",
-    "build": "cd client && yarn run build",
-    "heroku-postbuild": "yarn run build"
-  },
-  "author": "Brij Patel",
-  "license": "MIT",
->>>>>>> d558f6d68752465d493cb23a5fb224e54ac56450
   "devDependencies": {
     "concurrently": "^4.1.0",
     "nodemon": "^1.18.7"
